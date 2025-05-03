@@ -1,0 +1,18 @@
+[
+    {
+      "rule_id": 1,
+      "name": "Block HTTP",
+      "action": "deny",
+      "protocol": "tcp",
+      "dst_port": "80",
+      "description": "Bloque le trafic HTTP"
+    },
+      {
+        "rule_id": 2,
+        "name": "Block ICMP",
+        "action": "deny",
+        "protocol": "icmp",
+        "description": "Bloquer tous les paquets ICMP (ping)"
+      }
+  ]
+  
